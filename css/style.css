@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  justify-content: center;
+  }
+body{
+  background-image: url(../svg/manzara.webp);
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.container{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+.box{
+ width: 300px;
+ height: 500px;
+ border-radius: 4px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 80px;
+ }
+.image{
+  width: 64px;
+  height:40px ;
+}
+.Sedans{
+  background-color: #E28625;
+  color: #F2F2F2;
+  }
+  .Suvs{
+    background-color: #006971;
+    color: #F2F2F2;
+}
+.Luxury{
+  background-color: #004140;
+  color: #F2F2F2;
+  }
+  .h3{
+font-size: 40px;
+font-weight: 700;
+line-height: 47.88px;
+text-align: left;
+}
+.text{
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+.btn{
+display: inline-block;
+padding: 10px 20px;
+background-color: #F2F2F2;
+text-decoration: none;
+color: red;
+border-radius: 30px; width: 146px; height: 48px;
+justify-content: center;
+}
